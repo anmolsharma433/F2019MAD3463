@@ -12,6 +12,8 @@ public class MainClass {
 
         //third question
         System.out.println("The Initial are : "+l1.initials("James tiBeriUs kiRK"));
+
+       
     }
 
 }

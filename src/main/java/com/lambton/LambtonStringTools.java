@@ -58,7 +58,26 @@ public class LambtonStringTools {
         return ans;
     }
 
-    
+    // most frequent
+    public char mostFrequent(String s)
+    {
+        String remove = s.replaceAll("\\s", "");
+        int highoccurance = 0;
+        char mostfrequent = ' ';
+        for (int i = 0; i < remove.length(); i++) {
+            char a = remove.charAt(i);
+            int b = 0;
+            for (int c = remove.indexOf(a); c != -1; c = remove.indexOf(a, c + 1)) {
+                b++;
+            }
+            if (b > highoccurance) {
+                highoccurance = b;
+                mostfrequent = a;
+            }
+        }
+        return mostfrequent;
+    }
+
 
 
 }
