@@ -40,5 +40,12 @@ public class LambtonStringTools {
         }
         return decimal;
     }
+
+
+    //Initials Functions
+    public String initials(String s)
+    {
+        
+    }
 }
 
