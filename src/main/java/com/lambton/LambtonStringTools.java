@@ -78,6 +78,12 @@ public class LambtonStringTools {
         return mostfrequent;
     }
 
+    //replace substring
+    public String replaceSubString(String s1, String s2, String s3)
+    {
+        
+    }
+
 
 
 }
