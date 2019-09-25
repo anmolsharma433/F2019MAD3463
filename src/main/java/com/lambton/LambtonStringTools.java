@@ -9,7 +9,7 @@ public class LambtonStringTools
         String store;
         char reverse[] =new char[s.length()];
         int count = 0;
-        for(int i = s.length(); i>=0;i--)
+        for(int i = s1.length-1; i>=0;i--)
         {
             reverse[count++]=s1[i];
 
