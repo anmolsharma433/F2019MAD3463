@@ -38,7 +38,7 @@ public class LambtonStringTools {
             }
 
         }
-        
+        return decimal;
     }
 }
 
