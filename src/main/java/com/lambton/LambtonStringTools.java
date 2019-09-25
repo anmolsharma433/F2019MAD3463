@@ -45,7 +45,21 @@ public class LambtonStringTools {
     //Initials Functions
     public String initials(String s)
     {
-        
+        String[] splitter = s.split("\\s+");
+        String ans ="";
+        if(splitter.length == 3)
+        {
+            ans =splitter[0].substring(0,1).toUpperCase()+"."+splitter[1].substring(0,1).toUpperCase()+"."+splitter[2].substring(0,1).toUpperCase() + splitter[2].substring(1).toLowerCase();
+        }
+        else
+        {
+            System.out.println("null");
+        }
+        return ans;
     }
+
+    
+
+
 }
 

@@ -10,7 +10,8 @@ public class MainClass {
         //Second question
         System.out.println("The binary is "+l1.binarytodecimal("1000"));
 
-
+        //third question
+        System.out.println("The Initial are : "+l1.initials("James tiBeriUs kiRK"));
     }
 
 }
