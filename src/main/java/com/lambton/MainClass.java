@@ -13,7 +13,8 @@ public class MainClass {
         //third question
         System.out.println("The Initial are : "+l1.initials("James tiBeriUs kiRK"));
 
-       
+        //forth question
+        System.out.println("The most frequent are : " +l1.mostFrequent("James tiBeriUs kiRK"));
     }
 
 }
